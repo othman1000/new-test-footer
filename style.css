@@ -20,6 +20,7 @@ footer{
    padding: 20px 50px;
     justify-content: flex-end;
    align-self: flex-end;
+   flex-direction: column;
 }
 .contianer{
     color: white;
@@ -38,29 +39,32 @@ footer{
     color: #fff;
     position: flex;
     cursor: pointer;
-    letter-spacing: 1.5em;
-    transition: 1s;
+    letter-spacing: 1em;
+    
     opacity: 1.75;
     align-items: center;
     justify-content: center;
     margin: 10px 0;
-
+    flex-wrap: wrap;
+    transition: 0.5s;
 }
-.icons :hover{
+.d:hover{
     transform: translateY(-10px);
-    transition: 1s ease;
-
+    
 }
+.d{
+    transition: 0.5s ;
+}
+
+
 .icons i{
     list-style: none;
 }
 .contianter2{
     margin: auto;
-  
+    margin-top: 35px;
     text-align: center;
     font-size: 32px;
-    
-    
 }
 .contianter2 a {
     text-decoration: none;
@@ -70,8 +74,13 @@ footer{
     margin-right: 50px;
     font-weight: bold;
     text-shadow: 1px 1px 3px black;
-
+    justify-content: center;
+    text-align: center;
     opacity: 0.75;
+}
+.contianter2 a:hover{
+    opacity: 1;
+    transition: 0.5s;
 }
 footer .wave{
 
